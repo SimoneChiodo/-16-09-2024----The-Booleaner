@@ -17,8 +17,12 @@ header{
 }
 
 /* main */
+main{
+    margin-left: 5px;
+}
+
 /* intestazione */
-.title{
+h1{
     margin-top: 15px;
     margin-bottom: 0;
     font-size: 35px;
@@ -49,4 +53,59 @@ header{
 /* paragrafo, elenco, tabella e paragrafo */
 .evidenziato{
     background:#ffff00;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #21a9e5;
+    color: white;
+}
+
+#riga-dispari{
+    background-color: #b1e5f1;
+}
+
+th, td{
+    padding-right: 50px
+}
+
+td{    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* footer */
+footer{
+    margin-left: 5px;
+}
+
+#footer-intest{
+    color: darkgray;
+}
+
+.annuncio{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    background-size:contain;
+    height: 150px;
+    width: 200px;
+}
+
+.monitor{
+    background-image: url(../img/monitor.jpg);
+}
+
+.graph{
+    background-image: url(../img/graph.jpg);
+    margin-bottom: 30px;
+}
+
+.testo-annuncio{
+    padding-top: 10px;
+    padding-left: 10px;
 }
