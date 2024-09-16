@@ -55,6 +55,10 @@ h1{
     background:#ffff00;
 }
 
+ul{
+    padding-left: 20px;
+}
+
 table{
     border-collapse: collapse;
 }
@@ -84,6 +88,8 @@ footer{
 
 #footer-intest{
     color: darkgray;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .annuncio{
@@ -98,6 +104,7 @@ footer{
 
 .monitor{
     background-image: url(../img/monitor.jpg);
+    margin-bottom: 10px;
 }
 
 .graph{
@@ -108,4 +115,5 @@ footer{
 .testo-annuncio{
     padding-top: 10px;
     padding-left: 10px;
+    margin: 0;
 }
