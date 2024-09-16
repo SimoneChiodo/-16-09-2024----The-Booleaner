@@ -17,6 +17,7 @@ header{
 }
 
 /* main */
+/* intestazione */
 .title{
     margin-top: 15px;
     margin-bottom: 0;
@@ -37,4 +38,15 @@ header{
     text-decoration: none;
     color: #4da1fc;
     font-weight:bold;
+}
+
+/* immagini */
+.caption{
+    font-size: 12px;
+    margin: 0;
+}
+
+/* paragrafo, elenco, tabella e paragrafo */
+.evidenziato{
+    background:#ffff00;
 }
