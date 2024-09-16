@@ -15,3 +15,26 @@ header{
     padding-top: 40px;
     padding-left: 10px;
 }
+
+/* main */
+.title{
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 35px;
+}
+
+.info{
+    color: darkgray;
+    margin: 0;
+}
+
+.data{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+#link-info{
+    text-decoration: none;
+    color: #4da1fc;
+    font-weight:bold;
+}
